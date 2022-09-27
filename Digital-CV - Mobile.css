@@ -1,0 +1,163 @@
+@media screen and (max-width: 768px) {
+  body {
+    /* background-color: blue; */
+  }
+
+  /* Định dạng banner */
+  .banner {
+    width: 100%;
+    font-family: "Nunito", san-serif;
+  }
+
+  .banner h1 {
+    font-size: 36px;
+  }
+
+  .banner p {
+    font-size: 30px;
+  }
+
+  /* Định dạng navbar */
+  .navbar {
+    background-color: #fff;
+    height: 5%;
+    display: block;
+    width: 100%;
+    padding-left: 40%;
+  }
+
+  .nav-info {
+    border-left: none;
+  }
+
+  .avt {
+    display: none;
+  }
+
+  /* Định dạng container 1: Mục tiêu nghề nghiệp và thông tin cá nhân */
+  /* Mục tiêu nghề nghiệp  */
+  .container-1 {
+    display: block;
+    font-family: "Nunito", san-serif;
+  }
+
+  .target-title {
+    font-size: 20px;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .personal-target {
+    width: 90%;
+    margin: 0% 4% 4% 4%;
+    padding-top: 4%;
+  }
+
+  .target-content {
+    text-align: justify;
+  }
+
+  /* Thông tin cá nhân */
+  .full-name {
+    font-size: 20px;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .info {
+    margin: 0% 0% 0% 30% !important;
+  }
+
+  .personal-info-icon {
+    margin-left: 35%;
+  }
+
+  .bi-twitter,
+  .bi-facebook,
+  .bi-google,
+  .bi-linkedin {
+    padding: 0 10px;
+  }
+
+  /* Định dạng container 2: Kinh nghiệm, Kỹ năng, Ngôn ngữ, Hoạt động, Học vấn, Sở thích) */
+  .container-2 {
+    font-family: "Nunito", san-serif;
+    display: block;
+    padding-top: 0px !important;
+    padding-bottom: 5px !important;
+  }
+
+  .experience-h2,
+  .skill-h2,
+  .language-h2,
+  .activity-h2,
+  .education-h2,
+  .hobby-h2 {
+    font-size: 20px;
+  }
+
+  /* Sở thích */
+  .hobby {
+    padding-top: 12%;
+  }
+
+  /* Định dạng container 3: Chứng chỉ – Giải thưởng */
+  .container-3 {
+    font-family: "Nunito", san-serif;
+    display: block;
+  }
+
+  .certificate-h2 {
+    font-size: 20px;
+  }
+
+  .certificate-h3 {
+    font-size: 12px;
+  }
+
+  #certificate-2 {
+    padding-top: 3%;
+  }
+
+  #certificate-3 {
+    padding-bottom: 3%;
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  /* Định dạng container 4: Dự án */
+  .container-4 {
+    font-family: "Nunito", san-serif;
+    display: block;
+  }
+
+  .project h2 {
+    font-size: 20px;
+  }
+
+  .project-1,
+  .project-2 {
+    padding-bottom: 3%;
+  }
+
+  .project-1-name {
+    padding-left: 45%;
+  }
+
+  .project-2-name {
+    padding-left: 42%;
+  }
+
+  .project-3-name {
+    padding-left: 42%;
+  }
+
+  /* Định dạng container 5: Footer */
+  .container-5 {
+    font-family: "Nunito", san-serif;
+  }
+
+  .footer {
+    padding-left: 25%;
+  }
+}

@@ -1,0 +1,159 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    /* background-color: blueviolet; */
+  }
+
+  /* Định dạng banner */
+  .banner {
+    width: 100%;
+    font-family: "Nunito", san-serif;
+  }
+
+  .banner h1 {
+    font-size: 44px;
+  }
+
+  .banner p {
+    font-size: 36px;
+  }
+
+  /* Định dạng navbar */
+  .avt {
+    display: none;
+  }
+
+  /* Định dạng container 1: Mục tiêu nghề nghiệp và thông tin cá nhân */
+  .container-1 {
+    font-family: "Nunito", san-serif;
+  }
+
+  /* Mục tiêu nghề nghiệp  */
+  .target-title {
+    font-size: 24px;
+    width: 100%;
+  }
+
+  .personal-target {
+    width: 80%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 15%;
+  }
+
+  .target-content {
+    text-align: justify;
+  }
+
+  /* Thông tin cá nhân */
+  .full-name {
+    font-size: 24px;
+    width: 100%;
+    margin-top: 0%;
+  }
+
+  .info {
+    width: 60%;
+    margin: 5% 0% 5% 30%;
+  }
+
+  .personal-info-icon {
+    margin-left: 40%;
+  }
+
+  /* Định dạng container 2: Kinh nghiệm, Kỹ năng, Ngôn ngữ, Hoạt động, Học vấn, Sở thích) */
+  .container-2 {
+    font-family: "Nunito", san-serif;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .experience-h2,
+  .skill-h2,
+  .language-h2,
+  .activity-h2,
+  .education-h2,
+  .hobby-h2 {
+    font-size: 24px;
+  }
+
+  /* Hoạt động */
+  .activity {
+    padding-left: 1%;
+  }
+
+  /* Học vấn */
+  .education-description-1,
+  .education-description-2 {
+    padding-left: 1%;
+  }
+
+  /* Định dạng container 3: Chứng chỉ – Giải thưởng */
+  .container-3 {
+    font-family: "Nunito", san-serif;
+    padding-top: 2% !important;
+    padding-left: 6%;
+    gap: 5%;
+  }
+
+  .certificate-h2 {
+    font-size: 24px;
+    padding-left: 6%;
+  }
+
+  .certificate-h3 {
+    font-size: 14px !important;
+  }
+
+  #certificate-3,
+  #certificate-4 {
+    padding-top: 2%;
+  }
+
+  /* Định dạng container 4: Dự án */
+  .container-4 {
+    font-family: "Nunito", san-serif;
+    gap: 3%;
+  }
+
+  .project > h2 {
+    font-size: 24px;
+  }
+
+  .project-1-name {
+    padding-left: 35%;
+  }
+
+  .project-2-name {
+    padding-left: 35%;
+  }
+
+  .project-3-name {
+    padding-left: 35%;
+  }
+
+  .bi-pin-map-fill,
+  .bi-lightbulb-fill {
+    padding: 2px 5px;
+  }
+
+  .project-1-description,
+  .project-2-description,
+  .project-3-description {
+    font-size: 12px;
+  }
+
+  .project-1-table,
+  .project-2-table,
+  .project-3-table {
+    text-align: justify;
+  }
+
+  /* Định dạng container 5: Footer */
+  .container-5 {
+    font-family: "Nunito", san-serif;
+  }
+
+  .footer {
+    padding-left: 28%;
+  }
+}
